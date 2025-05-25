@@ -19,15 +19,15 @@ This repository contains a Jupyter Notebook-based implementation of multiple cla
 - AE_LR_CNN: Autoencoder + Logistic Regression + CNN hybrid
 
 # Dataset #
-Input data is stored as JSON files in adsp-data/494_bus/. These files represent PMC (Performance Monitoring Counter) outputs collected during error-injected CG computations on a fixed sparse matrix (494_bus.mtx).
+Input data is stored as JSON files in `adsp-data/494_bus/`. These files represent PMC (Performance Monitoring Counter) outputs collected during error-injected CG computations on a fixed sparse matrix (494_bus.mtx).
 The dataset.py script reads these JSON files, extracts relevant features, and creates a DataFrame suitable for classification.
 
 # How to run #
 1. Install required Python packages
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
 2. Run the Jupyter Notebook
-'jupyter notebook'
+`jupyter notebook`
 
-3. Open any notebook (e.g., 'DT.ipynb') to explore training, evaluation, and performance visualization for that model.
+3. Open any notebook (e.g., `DT.ipynb`) to explore training, evaluation, and performance visualization for that model.
 
