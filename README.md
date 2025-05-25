@@ -1,4 +1,4 @@
-## Classifier Evaluation on Error-Injected Sparse Matrix Data ##
+# Classifier Evaluation on Error-Injected Sparse Matrix Data #
 This repository contains a Jupyter Notebook-based implementation of multiple classification models (e.g., AB, k-NN, DT, RF, DNN, MLP, SVM, RBM, RBM_Recon, AE_LR_CNN) to detect and analyze anomalies in performance counter data derived from error-injected sparse matrix computations.
 
 - Loading of experimental performance counter results stored in JSON format.
@@ -6,7 +6,7 @@ This repository contains a Jupyter Notebook-based implementation of multiple cla
 - Training and evaluation of multiple classifiers for anomaly detection.
 - Comparison of metrics (accuracy, precision, recall, F1-score) across models.
 
-# classifiers #
+## classifiers 
 - AB: AdaBoost
 - k-NN: k-Nearest Neighbors
 - DT: Decision Tree
@@ -18,11 +18,11 @@ This repository contains a Jupyter Notebook-based implementation of multiple cla
 - RBM_Recon: Reconstruction-based RBM
 - AE_LR_CNN: Autoencoder + Logistic Regression + CNN hybrid
 
-# Dataset #
+## Dataset 
 Input data is stored as JSON files in `adsp-data/494_bus/`. These files represent PMC (Performance Monitoring Counter) outputs collected during error-injected CG computations on a fixed sparse matrix (494_bus.mtx).
 The dataset.py script reads these JSON files, extracts relevant features, and creates a DataFrame suitable for classification.
 
-# How to run #
+## How to run 
 1. Install required Python packages
 `pip install -r requirements.txt`
 
